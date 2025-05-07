@@ -3,8 +3,8 @@
 **XPATH (XML Path Language):**  
 	XPath is a language or syntax to identify any web element using XPath expression. There are two types of XPath:
 
-	* Absolute XPath  
-        * Relative XPath
+* Absolute XPath  
+* Relative XPath
 
 **Syntax of XPath:**   
 	//tagname\[@attribute='value'\]  
