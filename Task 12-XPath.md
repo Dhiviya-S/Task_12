@@ -4,7 +4,7 @@
 	XPath is a language or syntax to identify any web element using XPath expression. There are two types of XPath:
 
 * Absolute XPath  
-  * Relative XPath
+* Relative XPath
 
 **Syntax of XPath:**   
 	//tagname\[@attribute='value'\]  
@@ -35,9 +35,9 @@
 
 | AXES | Xpath |
 | ----- | ----- |
-| Parent | (//a\[@href="/courses/"\])\[1\]/parent::div Only one parent for the element “div” |
+| Parent | (//a\[@href="/courses/"\])\[1\]/parent::div   Only one parent for the element “div” |
 | First Child  | No child element under “Courses” menu  |
-| Second Sibling  | (//a\[@href="/courses/"\])\[1\]/following-sibling::\*\[2\] All siblings are of same name so used indexing \[2\] |
+| Second Sibling  | (//a\[@href="/courses/"\])\[1\]/following-sibling::\*\[2\]   All siblings are of same name so used indexing \[2\] |
 | Ancestor  | (//a\[@href="/courses/"\])\[1\]/ancestor::\*  |
 | Following-sibling  | (//a\[@href="/courses/"\])\[1\]/following-sibling::\*  |
 | Preceding  | (//a\[@href="/courses/"\])\[1\]/preceding::\* |
